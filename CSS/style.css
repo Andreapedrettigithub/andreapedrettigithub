@@ -1,36 +1,38 @@
 body {font-family: 'Poppins', sans-serif; 
  background-color:#f7a398;
  border: solid 20px #fcd487;
+ ;
 }
 
 h1 {font-size:  200px; 
   color:#fcd487; 
 text-align:center  ;
 background-color:#f2b8a0 ;
-margin-top: 0%; 
-width: 50%;
+margin-top: 0% 0%; 
+width: 100%;
 text-align: center; 
-margin-left: 25%;}
+margin-left: 0%;
+;}
 
 h2 {font-size:  150px; 
   color:#fcd487; 
   text-align:center;
   background-color:#f2b8a0;
-   width: 50%;
-   text-align: center ;
-   margin-left: 25%; }
+   width: 100%;
+   text-align: center;
+   margin-left: 0%; }
 
 .logo { margin-left:  5%;
-   margin-top: 0%; 
-   margin-right: 5% ;
+   margin-top: 30px; 
+   margin-right: 10px ;
    margin-bottom:5% ;
    color: #EEA1A1;
-   border: 15px #fcd487  solid; 
- }
+   border: 15px #fcd487  solid;
+   }
 
 .carrito { width: 700px; 
   height: 700px;
-  margin:0% 10% 5% 5% ; 
+  margin-top:30px; 
   color: #EEA1A1;
   border: 15px #fcd487  solid 
 ;}
@@ -47,20 +49,24 @@ ul {list-style-type: none;
   padding: 10px 20px 10px 20px; 
   margin:15px 30px 40px 15px ;
   color:#f2b8a0 ;
-   border: solid 20px #fcd487;
+  border: solid 20px #fcd487;
   display:flex;
   flex-direction: row;
-  justify-content:space-around ;
+  justify-content:space-evenly;
+ 
 }
 
 li {font-size:100px ;
     color:#fcd487;
   background-color:#f2b8a0;
-  padding: 10px 20px 10px 20px;
+  padding: 20px;
   display:inline-block;
   text-decoration: none;
   border:10px solid #fcd487;
   margin:15px 30px 40 px 15px;
+  flex: auto;
+  border-radius: 20px;
+ margin-inline: 10px;
   
 }
 
@@ -83,11 +89,18 @@ a{text-decoration: none;}
   gap: 20px;
 }
 .titulo{ grid-area:titulo;
-  border: solid 10px #fcd487}
+  border: solid 10px #fcd487;
+  margin-top: 30px;
+;
+}
 
-#log{ grid-area: log;}
+#log{ grid-area: log;
+display: flex;
+justify-content: center;}
 
-#carro{grid-area:carro;}
+#carro{grid-area:carro;
+display: flex;
+justify-content: center;}
 
 .nav {grid-area:nav;}
 
@@ -97,10 +110,13 @@ a{text-decoration: none;}
 .prendas { grid-area:prendas; 
 display:flex;
 flex-direction: row ;
-justify-content: space-between;
-width:100 %;
+justify-content: space-evenly;
+width:99%;
 height: 1200px;
-border: solid 10px #fcd487
+border: solid 10px #fcd487;
+padding: 20px;
+margin-left: 20px;
+margin-right: 40px;
 }
 
 #leg {grid-area:leg;
@@ -110,10 +126,48 @@ width: 33,3%;}
 width: 33,3%;}
 
 #bras {grid-area: bras;
+text-align: center;
+width: 33,3%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.prendas__brasier {
+  background: lightblue;
+    border-radius: 100%;
+    width: 1000px;
+    height: 1000px;
+    margin-top: 30px;
+    border: 15px #fcd487 solid;
+}
+.prendas__leggins { margin-top: 30px;
+  background: lightblue;
+    border-radius: 100%;
+    width: 1000px;
+    height: 900px;
+    margin-top: 30px;
+    border: 15px #fcd487 solid;
+}
+#pLeg {
+  text-align: center;
+}
+#pPes {
+  text-align: center;
+}
+.prendas__pescadores {
+  margin-top: 30px;
+  background: lightblue;
+    border-radius: 100%;
+    width: 1000px;
+    height: 900px;
+    margin-top: 30px;
+    border: 15px #fcd487 solid;
 }
 
 .footer {grid-area: footer;
-  border: solid 10px #fcd487}
+  border: solid 10px #fcd487;
+  text-align: center;
+}
 
 
 
