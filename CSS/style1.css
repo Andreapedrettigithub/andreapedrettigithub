@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#f7a398;
+    border: solid 10px #fcd487;
+    color: #fcd487;
+}
+
+h1 {font-size:  200px; 
+    color:#fcd487; 
+  text-align:center  ;
+  background-color:#f2b8a0 ;
+  margin-top: 0% 0%; 
+  width: 100%;
+  text-align: center; 
+  margin-left: 0%;
+  border: #fcd487 solid 4px;
+  padding: 30px;
+  ;}
+  
+  h2 {font-size:  150px; 
+    color:#fcd487; 
+    text-align:center;
+    background-color:#f2b8a0;
+     width: 100%;
+     text-align: center;
+     margin-left: 0%;
+     border: #fcd487 solid 4px; }
+
+h3 {color: #fcd487;text-align: center;
+background-color: #f2b8a0;
+border: #fcd487 solid 4px;}
+
+.logo      {
+    border: 15px #fcd487  solid;
+    float: left;
+    
+}
+.carrito {
+    border: 15px #fcd487  solid;
+    float:right;
+    }
+.main {font-size: x-large;
+background-color:#f2b8a0 ;
+border: #fcd487 5px solid;} 
+
+.li-1 {text-decoration: none;}
+  
+
+footer {text-align: center;}
