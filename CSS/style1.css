@@ -26,13 +26,14 @@ h1 {font-size:  200px;
      margin-left: 0%;
      border: #fcd487 solid 4px; }
 
-h3 {color: #fcd487;text-align: center;
-background-color: #f2b8a0;
-border: #fcd487 solid 4px;}
+h3 {color: #fcd487;
+    text-align: center;
+   background-color: #f2b8a0;
+   border: #fcd487 solid 4px;
+   margin-inline: 10px;}
 
 .logo      {
     border: 15px #fcd487  solid;
-    float: left;
     
 }
 .carrito {
@@ -41,9 +42,21 @@ border: #fcd487 solid 4px;}
     }
 .main {font-size: x-large;
 background-color:#f2b8a0 ;
-border: #fcd487 5px solid;} 
+border: #fcd487 5px solid;
+padding: 30px ; 
+margin-inline: 10px;
+} 
 
-.li-1 {text-decoration: none;}
+.li-1   {list-style-type: none;}
   
-
+.li-2 {list-style-type: none}
+.li-3 {list-style-type: none}
 footer {text-align: center;}
+
+.centrado {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
