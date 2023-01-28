@@ -28,14 +28,19 @@ h2 {font-size:  150px;
    margin-bottom:5% ;
    color: #EEA1A1;
    border: 15px #fcd487  solid;
+   transition: all 2s;
    }
+.logo:hover {width: 400px;height: 400px;
+padding: 20px;
+background-color: aqua;}  
 
 .carrito { width: 700px; 
   height: 700px;
   margin-top:30px; 
   color: #EEA1A1;
-  border: 15px #fcd487  solid 
-;}
+  border: 15px #fcd487  solid;
+  transition: all 2s; 
+}
 
 .video {text-align: center ;
    border-radius: solid 100px black;
@@ -63,14 +68,16 @@ li {font-size:100px ;
   display:inline-block;
   text-decoration: none;
   border:10px solid #fcd487;
-  margin:15px 30px 40 px 15px;
+  margin:15px 30px 40px 15px;
   flex: auto;
   border-radius: 20px;
  margin-inline: 10px;
   
 }
 
-li:hover{background-color:#fcd487;}
+li:hover{background-color:#fcd487;
+padding: 20px;
+transform: skewY(25deg);}
 
 a{text-decoration: none;}
 
@@ -91,11 +98,26 @@ a{text-decoration: none;}
 .titulo{ grid-area:titulo;
   border: solid 10px #fcd487;
   margin-top: 30px;
-   }
+  width: 1686;
+  height: 796,500;
+animation-name:mianimation;
+animation-duration: 4s;
+animation-delay: 2s;
+position: relative;
+animation-iteration-count: 4;
+ }
+ @keyframes mianimation {
+  0% {background-color: #f2b8a0 ;margin-top: 30px;}
+  25% {background-color: #fcd487;margin-top: 50px;}
+  50% {background-color: #f7a398;margin-top: 80px;}
+  100% {background-color: #fcd487;margin-top: 120px;}
+ }
+
 
 #log{ grid-area: log;
 display: flex;
-justify-content: center;}
+justify-content: center;
+}
 
 #carro{grid-area:carro;
 display: flex;
@@ -150,11 +172,13 @@ justify-content: center;
     border: 15px #fcd487 solid;
 }
 #pLeg {
-  text-align: center;
+  text-align: center; color:#EEA1A1
 }
 #pPes {
-  text-align: center;
+  text-align: center;color:#EEA1A1
 }
+#bra_abajo {color:#EEA1A1}
+
 .prendas__pescadores {
   margin-top: 30px;
   background: lightblue;
@@ -168,8 +192,10 @@ justify-content: center;
 .footer {grid-area: footer;
   border: solid 10px #fcd487;
   text-align: center;
+ }
+
+
  
-}
 
 
 

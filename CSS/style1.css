@@ -30,15 +30,21 @@ h3 {color: #fcd487;
     text-align: center;
    background-color: #f2b8a0;
    border: #fcd487 solid 4px;
-   margin-inline: 10px;}
+   margin-inline: 10px;
+height: 100px;
+padding-top: 30px;}
 
 .logo      {
     border: 15px #fcd487  solid;
+    width: 100px;
+    height: 100px;
     
 }
 .carrito {
     border: 15px #fcd487  solid;
     float:right;
+    width: 100px;
+    height: 100px;
     }
 .main {font-size: x-large;
 background-color:#f2b8a0 ;
