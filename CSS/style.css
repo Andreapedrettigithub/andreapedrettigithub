@@ -28,21 +28,19 @@ h2 {font-size: large;
    border: 5px #fcd487  solid;
    transition: all 2s;
    align-items: center;
-   padding: 5%;
    }
 .logo:hover {width: 80%;height: 80%;
 padding: 1.5%;
 background-color: aqua;}  
 
-.carrito {  margin-left:  5%;
-  margin-top: 5%; 
+.carrito {  margin-left:  0%;
+  margin-top: 10%; 
   margin-right: 5% ;
   margin-bottom:5% ; 
   color: #EEA1A1;
   border: 5px #fcd487  solid;
   transition: all 2s;
   align-items: center ; 
-;
 }
 .carrito:hover {width: 80%;height: 80%;
   padding: 0.5%;

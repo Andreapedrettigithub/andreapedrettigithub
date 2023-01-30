@@ -26,24 +26,38 @@ h1 {font-size:  200px;
      margin-left: 0%;
      border: #fcd487 solid 4px; }
 
-h3 {color: #fcd487;
+.h3 {color: #fcd487;
     text-align: center;
    background-color: #f2b8a0;
    border: #fcd487 solid 4px;
    margin-inline: 10px;
-height: 100px;
-padding-top: 30px;}
-
-.logo      {
+   height: 10%;
+   ;}
+.h3 {color: #fcd487;}
+li:hover {background-color:#fcd487;
+    padding: 2%;
+    transform: skewY(5deg);
+    border: solid 10px #fcd487}
+.logo {
     border: 15px #fcd487  solid;
-    width: 100px;
-    height: 100px;}
+    width: 80%;
+    height: 80%;
+    transition: all 2s;}
+.logo:hover  {width: 80%;height: 80%;
+    padding: 0.5%;
+    background-color: aqua;} 
+  
 
 .carrito {
     border: 15px #fcd487  solid;
-    width: 100px;
-    height: 100px;
+    width: 80%;
+    height: 80%;
+    transition: all 2s;
     }
+.carrito:hover  {width: 80%;height: 80%;
+    padding: 0.5%;
+    background-color: aqua;} 
+  
 
 .main {font-size: x-large;
 background-color:#f2b8a0 ;
@@ -52,11 +66,10 @@ padding: 30px ;
 margin-inline: 10px;
 } 
 
-.li-1   {list-style-type: none;}
-  
-.li-2 {list-style-type: none}
-.li-3 {list-style-type: none}
-footer {text-align: center;}
+.li-1   {list-style-type: none;color:#fcd487;}
+.li-2 {list-style-type: none;color: #fcd487;}
+.li-3 {list-style-type: none;color: #fcd487;}
+
 
 .centrado {
     text-align: center;
@@ -73,3 +86,15 @@ h2 {font-size: smaller;}
 h3 {font-size: x-small;}
 .main {font-size: small;}
 }
+
+footer { border: solid 1% #fcd487;
+    text-align: center;
+    border: solid 5px #fcd487;
+    background-image: linear-gradient(to top,#fcd487 ,#EEA1A1);
+    margin:1%;
+    text-align: center;
+    height: 35%;
+}
+.copy { font-size: small;
+color:#fcd487;
+background-color: #EEA1A1;}
