@@ -37,15 +37,14 @@ padding-top: 30px;}
 .logo      {
     border: 15px #fcd487  solid;
     width: 100px;
-    height: 100px;
-    
-}
+    height: 100px;}
+
 .carrito {
     border: 15px #fcd487  solid;
-    float:right;
     width: 100px;
     height: 100px;
     }
+
 .main {font-size: x-large;
 background-color:#f2b8a0 ;
 border: #fcd487 5px solid;
@@ -64,5 +63,13 @@ footer {text-align: center;}
     vertical-align: middle;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
 
-
+.logo { width: 50px; height: 50px; border:5px #fcd487  solid; }
+.carrito { width: 50px; height: 50px; border:5px #fcd487  solid;}
+.subtitulo {visibility: collapse;}
+h1 {font-size: 100px ;}
+h2 {font-size: smaller;}
+h3 {font-size: x-small;}
+.main {font-size: small;}
+}
