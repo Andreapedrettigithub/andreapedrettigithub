@@ -1,0 +1,120 @@
+.contenedor{ background-color:#f7a398;
+    border: solid 5px #fcd487;
+    color: #fcd487;
+    width: 100%;
+    h1 {font-size:  50px; 
+        color:#fcd487; 
+      text-align:center  ;
+      background-color:#f2b8a0 ;
+      margin-top: 0% 0%; 
+      width: 100%;
+      text-align: center; 
+      margin-left: 0%;
+      border: #fcd487 solid 4px;
+      padding: 15px;
+      ;}
+    h2 {font-size:  25px; 
+        color:#fcd487; 
+        text-align:center;
+        background-color:#f2b8a0;
+         width: 100%;
+         text-align: center;
+         margin-left: 0%;
+         border: #fcd487 solid 4px;
+        padding: 15px; }}
+
+.row {
+    width: 100%;
+    margin:15px;
+    padding: 15px;
+    display: flex;
+    .logo{ border: 5px #fcd487  solid;
+        width: 50%;
+        height: 50%;
+        margin:0% 25% ;
+        justify-content: center;
+        transition: all 2s;
+        &:hover{width: 70%;
+        height: 70%;
+        padding: 1,5%;
+        background-color: aqua;
+   }}
+        
+    .carrito{ border: 5px #fcd487  solid;
+        width: 50%;
+        height: 50%;
+        margin: 0% 25%;
+        justify-content: center;
+        transition: all 2s;
+        &:hover{width: 70%;
+        height: 70%;
+        padding: 1,5%;
+        background-color: aqua;
+   }} }
+
+    
+   ul {font-size: large;
+    display:flex;}
+    li{direction:row;
+       align-content: space-around;
+       &:hover{background-color:#fcd487;
+       transform: skewY(1deg)}}
+
+
+
+ @mixin border-radius-image {
+        background: lightblue;
+    border-radius: 100%;
+    width: 10%;
+    height: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 5px #fcd487 solid;}
+   
+
+.estampado {@include border-radius-image;}
+.pretina_ancha{@include border-radius-image()}
+.magenta{@include border-radius-image()}
+.costado{@include border-radius-image()}
+.braVerde{@include border-radius-image()}
+.braAzul{@include border-radius-image()}
+.braTurqueza{@include border-radius-image()}
+.pes1{@include border-radius-image()}
+.pes2{@include border-radius-image()}
+.pes3{@include border-radius-image()}
+
+@mixin flex-row-center {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.leggins{@include flex-row-center()}
+.brasier{@include flex-row-center()}
+.pescadores{@include flex-row-center()}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@mixin subtitulo_2 {
+    border:#fcd487 solid 2px;
+    border-radius:10px;
+    padding: 20px;
+    width: fit-content;
+    background-color: #f2b8a0;
+   
+}
+
+.sub1 {@include subtitulo_2()}
+.sub2 {@include subtitulo_2()}
+.sub3 {@include subtitulo_2()}
+
+@mixin footer_gradiente {
+    border: solid 1% #fcd487;
+    text-align: center;
+    border: solid 5px #fcd487;
+    background-image: linear-gradient(to top,#fcd487 ,#EEA1A1)}
+
+.footer {@include footer_gradiente()}
