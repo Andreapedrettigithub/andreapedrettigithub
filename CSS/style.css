@@ -34,7 +34,7 @@ padding: 1.5%;
 background-color: aqua;}  
 
 .carrito {  margin-left:  0%;
-  margin-top: 10%; 
+  margin-top: 5%; 
   margin-right: 5% ;
   margin-bottom:5% ; 
   color: #EEA1A1;
@@ -46,11 +46,15 @@ background-color: aqua;}
   padding: 0.5%;
   background-color: aqua;} 
 
-.video_main {text-align: center ;
-   border-radius: solid 5% black;
-    padding: 1%;
+.main {display: flex;
+direction: row;
+justify-content: center;}  
+
+.video_main {
+  border-radius: solid 5% black;
+  padding: 1%;
   margin:0% 2%;
- justify-content: center;}
+ }
 
 p {color:#fcd487; font-size: small ; }
 
@@ -123,12 +127,9 @@ animation-iteration-count: 4;
 .log{ grid-area: log;
 display: flex;
 justify-content: center;
-align-self: center;
-margin-left: 30%;
-margin-top: 5%;
 }
 
-#carro{grid-area:carro;
+.carro{grid-area:carro;
 display: flex;
 justify-content: center;}
 
@@ -147,14 +148,10 @@ padding: 1%;}
  }
 .pesc1 {grid-area: pesc1;
   
-  ;}
-
-.bra1 {grid-area: bra1;
-display: flex;
-flex-direction: column;
-justify-content: center;
-
 }
+
+.bra1 {grid-area: bra1;}
+
 .prendas__brasier {
   background: lightblue;
     border-radius: 100%;
