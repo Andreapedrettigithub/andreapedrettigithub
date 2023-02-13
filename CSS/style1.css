@@ -37,7 +37,6 @@ h1 {font-size:  200px;
 
 li:hover {background-color:#fcd487;
     color: #fcd487;
-    padding: 2%;
     transform: skewY(1deg);
     border: solid 5px #fcd487}
 .logo {
