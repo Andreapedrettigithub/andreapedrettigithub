@@ -195,7 +195,7 @@ padding: 1%;}
   background-image: linear-gradient(to top,#fcd487 ,#EEA1A1);
  }
 
- @media only screen and (min-width:0px) and (max-width:500px) {
+ @media only screen and (min-width:0px) and (max-width:767px) {
 h2 {display:none}
 .h1{margin-top: 0%;border-top: 0%;text-align: center;}
 .carrito {text-align: right;}

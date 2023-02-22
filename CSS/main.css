@@ -27,15 +27,14 @@
 
 .row {
   width: 100%;
-  margin: 15px;
-  padding: 15px;
-  display: flex; }
+  display: flex;
+  margin: 1%;
+  padding-left: 5%; }
   .row .logo {
     border: 5px #fcd487  solid;
     width: 50%;
     height: 50%;
     margin: 0% 25%;
-    justify-content: center;
     transition: all 2s; }
     .row .logo:hover {
       width: 70%;
@@ -47,7 +46,6 @@
     width: 50%;
     height: 50%;
     margin: 0% 25%;
-    justify-content: center;
     transition: all 2s; }
     .row .carrito:hover {
       width: 70%;
@@ -227,4 +225,21 @@ li {
   text-align: center;
   border: solid 5px #fcd487;
   background-image: linear-gradient(to top, #fcd487, #EEA1A1);
-  margin-top: 5%; }
+  margin: 5% 1%; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .row .logo {
+    width: 75%;
+    height: 75%;
+    margin: 0% 12,5%; }
+  .row .carrito {
+    width: 75%;
+    height: 75%;
+    margin: 0% 10%; }
+  .row .subtitulo {
+    display: none; }
+  .contenedor h1 {
+    font-size: 25px;
+    margin-top: 8%; }
+  .segunda_parte {
+    display: none; } }

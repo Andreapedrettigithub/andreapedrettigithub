@@ -2,6 +2,7 @@
     border: solid 5px #fcd487;
     color: #fcd487;
     width: 100%;
+   
     h1 {font-size:  50px; 
         color:#fcd487; 
       text-align:center  ;
@@ -12,6 +13,7 @@
       margin-left: 0%;
       border: #fcd487 solid 4px;
       padding: 15px;
+
       ;}
     h2 {font-size:  25px; 
         color:#fcd487; 
@@ -25,14 +27,13 @@
 
 .row {
     width: 100%;
-    margin:15px;
-    padding: 15px;
-    display: flex;
+   display: flex;
+   margin:1%;
+   padding-left: 5%;
     .logo{ border: 5px #fcd487  solid;
         width: 50%;
         height: 50%;
-        margin:0% 25% ;
-        justify-content: center;
+        margin:0% 25% ;  
         transition: all 2s;
         &:hover{width: 70%;
         height: 70%;
@@ -43,8 +44,7 @@
     .carrito{ border: 5px #fcd487  solid;
         width: 50%;
         height: 50%;
-        margin: 0% 25%;
-        justify-content: center;
+        margin: 0% 25%;       
         transition: all 2s;
         &:hover{width: 70%;
         height: 70%;
@@ -138,4 +138,17 @@
     background-image: linear-gradient(to top,#fcd487 ,#EEA1A1)}
 
 .footer {@include footer_gradiente();
-margin-top: 5%;}
+margin:  5% 1%;}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) 
+{
+    .row{
+    .logo { width: 75%; height: 75%; margin: 0% 12,5%;}
+    .carrito { width: 75%; height: 75%; margin: 0% 10%;}
+    .subtitulo {display: none;}
+    }
+    .contenedor {h1 {font-size: 25px; margin-top: 8%;}}
+    
+.segunda_parte{display: none;}
+}
+
