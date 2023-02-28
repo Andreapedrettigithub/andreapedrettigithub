@@ -1,28 +1,28 @@
 .contenedor {
-  background-color: #f7a398;
-  border: solid 5px #fcd487;
-  color: #fcd487;
+  background-color: #f0d4d0;
+  border: solid 5px #ebc7c1;
+  color: #EEA1A1;
   width: 100%; }
   .contenedor h1 {
     font-size: 50px;
-    color: #fcd487;
+    color: #EEA1A1;
     text-align: center;
-    background-color: #f2b8a0;
+    background-color: #f0d4d0;
     margin-top: 0% 0%;
     width: 100%;
     text-align: center;
     margin-left: 0%;
-    border: #fcd487 solid 4px;
+    border: #ebc7c1 solid 4px;
     padding: 15px; }
   .contenedor h2 {
     font-size: 25px;
-    color: #fcd487;
+    color: #EEA1A1;
     text-align: center;
-    background-color: #f2b8a0;
+    background-color: #f0d4d0;
     width: 100%;
     text-align: center;
     margin-left: 0%;
-    border: #fcd487 solid 4px;
+    border: #ebc7c1 solid 4px;
     padding: 15px; }
 
 .row {
@@ -31,7 +31,7 @@
   margin: 1%;
   padding-left: 5%; }
   .row .logo {
-    border: 5px #fcd487  solid;
+    border: 5px #ebc7c1  solid;
     width: 50%;
     height: 50%;
     margin: 0% 25%;
@@ -42,7 +42,7 @@
       padding: 1,5%;
       background-color: aqua; }
   .row .carrito {
-    border: 5px #fcd487  solid;
+    border: 5px #ebc7c1  solid;
     width: 50%;
     height: 50%;
     margin: 0% 25%;
@@ -61,7 +61,8 @@ li {
   direction: row;
   align-content: space-around; }
   li:hover {
-    background-color: #fcd487;
+    background-color: #f0d4d0;
+    border: solid 5px #ebc7c1;
     transform: skewY(1deg); }
 
 .estampado {
@@ -71,7 +72,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .pretina_ancha {
   background: lightblue;
@@ -80,7 +81,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .magenta {
   background: lightblue;
@@ -89,7 +90,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .costado {
   background: lightblue;
@@ -98,7 +99,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .braVerde {
   background: lightblue;
@@ -107,7 +108,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .braAzul {
   background: lightblue;
@@ -116,7 +117,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .braTurqueza {
   background: lightblue;
@@ -125,7 +126,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .pes1 {
   background: lightblue;
@@ -134,7 +135,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .pes2 {
   background: lightblue;
@@ -143,7 +144,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .pes3 {
   background: lightblue;
@@ -152,7 +153,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid; }
+  border: 5px #ebc7c1 solid; }
 
 .calendario {
   background: lightblue;
@@ -161,7 +162,7 @@ li {
   height: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  border: 5px #fcd487 solid;
+  border: 5px #ebc7c1 solid;
   width: 20%; }
 
 .leggins {
@@ -196,8 +197,9 @@ li {
   margin-left: 30px; }
 
 .borde {
-  border: #fcd487 double 10px;
-  padding: 3%; }
+  border: #ebc7c1 double 10px;
+  padding: 3%;
+  color: #EEA1A1; }
 
 .derecha {
   display: flex;
@@ -206,26 +208,30 @@ li {
   margin-right: 30px; }
 
 .sub1 {
-  border: #fcd487 solid 2px;
+  border: #ebc7c1 solid 2px;
   border-radius: 10px;
   padding: 20px;
   width: fit-content;
-  background-color: #f2b8a0; }
+  background-color: #f0d4d0;
+  color: #EEA1A1; }
 
 .sub2 {
-  border: #fcd487 solid 2px;
+  border: #ebc7c1 solid 2px;
   border-radius: 10px;
   padding: 20px;
   width: fit-content;
-  background-color: #f2b8a0;
-  font-size: large; }
+  background-color: #f0d4d0;
+  color: #EEA1A1;
+  font-size: large;
+  margin-top: 2%; }
 
 .footer {
-  border: solid 1% #fcd487;
   text-align: center;
-  border: solid 5px #fcd487;
-  background-image: linear-gradient(to top, #fcd487, #EEA1A1);
-  margin: 5% 1%; }
+  border: solid 5px #ebc7c1;
+  background-image: linear-gradient(to top, #EEA1A1, #f0d4d0);
+  margin: 5% 1%;
+  padding: 5%;
+  color: #EEA1A1; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .row .logo {

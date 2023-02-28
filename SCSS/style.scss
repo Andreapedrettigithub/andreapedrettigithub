@@ -1,28 +1,28 @@
-.contenedor{ background-color:#f7a398;
-    border: solid 5px #fcd487;
-    color: #fcd487;
+.contenedor{ background-color: #f0d4d0;
+    border: solid 5px #ebc7c1;
+    color: #EEA1A1;
     width: 100%;
    
     h1 {font-size:  50px; 
-        color:#fcd487; 
+        color:#EEA1A1; 
       text-align:center  ;
-      background-color:#f2b8a0 ;
+      background-color:#f0d4d0 ;
       margin-top: 0% 0%; 
       width: 100%;
       text-align: center; 
       margin-left: 0%;
-      border: #fcd487 solid 4px;
+      border: #ebc7c1 solid 4px;
       padding: 15px;
 
       ;}
     h2 {font-size:  25px; 
-        color:#fcd487; 
+        color:#EEA1A1; 
         text-align:center;
-        background-color:#f2b8a0;
+        background-color:#f0d4d0;
          width: 100%;
          text-align: center;
          margin-left: 0%;
-         border: #fcd487 solid 4px;
+         border: #ebc7c1 solid 4px;
         padding: 15px; }}
 
 .row {
@@ -30,7 +30,7 @@
    display: flex;
    margin:1%;
    padding-left: 5%;
-    .logo{ border: 5px #fcd487  solid;
+    .logo{ border: 5px #ebc7c1  solid;
         width: 50%;
         height: 50%;
         margin:0% 25% ;  
@@ -41,7 +41,7 @@
         background-color: aqua;
    }}
         
-    .carrito{ border: 5px #fcd487  solid;
+    .carrito{ border: 5px #ebc7c1  solid;
         width: 50%;
         height: 50%;
         margin: 0% 25%;       
@@ -57,7 +57,8 @@
     display:flex;}
     li{direction:row;
        align-content: space-around;
-       &:hover{background-color:#fcd487;
+       &:hover{background-color:#f0d4d0;
+        border: solid 5px #ebc7c1;
        transform: skewY(1deg)}}
 
 
@@ -69,7 +70,7 @@
     height: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
-    border: 5px #fcd487 solid;}
+    border: 5px #ebc7c1 solid;}
    
 
 .estampado {@include border-radius-image()}
@@ -94,8 +95,6 @@
 .pescadores{@include flex-row-center()}
 .sub2 {@include flex-row-center()}
 
-
-
 .botones{
     display: flex;
     flex-direction: row;
@@ -109,8 +108,9 @@
     }
 
 .borde {
-    border:#fcd487 double 10px;
+    border:#ebc7c1 double 10px;
     padding: 3%;
+    color:#EEA1A1
 }
 .derecha {
     display: flex;
@@ -119,26 +119,31 @@
     margin-right:30px;
 }
 @mixin subtitulo_2 {
-    border:#fcd487 solid 2px;
+    border:#ebc7c1 solid 2px;
     border-radius:10px;
     padding: 20px;
     width: fit-content;
-    background-color: #f2b8a0;
+    background-color: #f0d4d0;
+    color: #EEA1A1
    }
 
 .sub1 {@include subtitulo_2()}
 .sub2 {@include subtitulo_2(); 
-      font-size: large;}
+      font-size: large;
+    margin-top: 2%;}
 
 
 @mixin footer_gradiente {
-    border: solid 1% #fcd487;
-    text-align: center;
-    border: solid 5px #fcd487;
-    background-image: linear-gradient(to top,#fcd487 ,#EEA1A1)}
+   text-align: center; 
+   border: solid 5px #ebc7c1;
+   background-image: linear-gradient(to top, #EEA1A1,#f0d4d0)}
 
 .footer {@include footer_gradiente();
-margin:  5% 1%;}
+margin:  5% 1%;
+padding:5% ;
+color: #EEA1A1;
+}
+
 
 @media only screen and (min-width: 0px) and (max-width: 767px) 
 {

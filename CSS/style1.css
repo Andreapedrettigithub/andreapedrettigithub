@@ -1,98 +1,115 @@
-body {
-    font-family: 'Poppins', sans-serif; 
-    border: solid 10px #fcd487;
-    height: 100%;
-   }
 
-h1 {font-size:  200px; 
-    color:#fcd487; 
-  text-align:center  ;
-  background-color:#f2b8a0 ;
-  margin-top: 0% 0%; 
-  width: 100%;
-  text-align: center; 
-  border: #fcd487 solid 4px;
-  padding: 30px;
-  ;}
-  
-  h2 {font-size:  150px; 
-    color:#fcd487; 
-    text-align:center;
-    background-color:#f2b8a0;
-     width: 100%;
-     text-align: center;
-     margin-left: 0%;
-     border: #fcd487 solid 4px; }
-
-     
-
-.h3 {color: #fcd487;
-    text-align: center;
-   background-color: #f2b8a0;
-  border: #fcd487 solid 4px;
-  height: 30%; margin:5% 1%;
- ;}
-
-li:hover {background-color:#fcd487;
-    color: #fcd487;
-    transform: skewY(1deg);
-    border: solid 5px #fcd487}
-.logo {
-    border: 5px #fcd487  solid;
-    width: 50%;
-    height: 50%;
-    transition: all 2s;}
-.logo:hover  {width: 80%;height: 80%;
-    padding: 0.5%;
-    background-color: aqua;} 
-
-  .carrito {
-    border: 5px #fcd487  solid;
-    width: 50%;
-    height: 50%;
-    transition: all 2s;
+body {font-family: 'Poppins', sans-serif; 
+    background-color:#f0d4d0;
+    border: 1% #ebc7c1  solid;
     }
-.carrito:hover  {width: 80%;height: 80%;
-    padding: 0.5%;
-    background-color: aqua;} 
+
+
+.contenedor {
+    background-color: #f0d4d0;
+    border: solid 5px #ebc7c1;
+    color: #EEA1A1;
+    width: 100%; margin-bottom: 1%;}
+    .contenedor h1 {
+      font-size: 50px;
+      color: #EEA1A1;
+      text-align: center;
+      background-color: #f0d4d0;
+      margin-top: 0% 0%;
+      width: 100%;
+      text-align: center;
+      margin-left: 0%;
+      border: #ebc7c1 solid 4px;
+      padding: 15px; }
+    .contenedor h2 {
+      font-size: 25px;
+      color: #EEA1A1;
+      text-align: center;
+      background-color: #f0d4d0;
+      width: 100%;
+      text-align: center;
+      margin-left: 0%;
+      border: #ebc7c1 solid 4px;
+      padding: 15px; }
   
+  .row {
+    width: 100%;
+    display: flex;
+    margin: 1%;
+    padding-left: 5%; }
+    .row .logo {
+      border: 5px #ebc7c1  solid;
+      width: 50%;
+      height: 50%;
+      margin: 0% 25%;
+      transition: all 2s; }
+      .row .logo:hover {
+        width: 70%;
+        height: 70%;
+        padding: 1,5%;
+        background-color: aqua; }
+    .row .carrito {
+      border: 5px #ebc7c1  solid;
+      width: 50%;
+      height: 50%;
+      margin: 0% 25%;
+      transition: all 2s; }
+      .row .carrito:hover {
+        width: 70%;
+        height: 70%;
+        padding: 1,5%;
+        background-color: aqua; }
+  
+  ul {
+    font-size: large;
+    display: flex; }
+  
+  li {
+    direction: row;
+    align-content: space-around; }
+    li:hover {
+      background-color: #f0d4d0;
+      border: solid 5px #ebc7c1;
+      transform: skewY(1deg); }
+  
+
+.h3 {color: #EEA1A1;
+  text-align: center;
+  background-color: #f0d4d0;
+  border: #ebc7c1 solid 3px;
+  height: 30%; margin: 1%;
+ }     
 
 .main {font-size: x-large;
-background-color:#f2b8a0 ;
-border: #fcd487 5px solid;
+background-color:#f0d4d0 ;
+border: #ebc7c1 2px solid;
 padding: 30px ; 
-
-margin: 5% 1%;
+margin: 1%;
 } 
 
-.li-1  {list-style-type: none;color:#fcd487;}
-.li-2 {list-style-type: none;color: #fcd487;}
-.li-3 {list-style-type: none;color: #fcd487;}
+.li-1  {list-style-type: none;color:#EEA1A1;}
+.li-2 {list-style-type: none;color: #EEA1A1;}
+.li-3 {list-style-type: none;color: #EEA1A1;}
 
-
-.centrado {
-    text-align: center;
-    vertical-align: middle;
-}
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
 
-.logo { width: 80%; height: 80%; border:5px #fcd487  solid; }
-.carrito { width: 80%; height: 80%; border:5px #fcd487  solid;}
+.logo { width: 80%; height: 80%; border:5px #ebc7c1 solid; }
+.carrito { width: 80%; height: 80%; border:5px #ebc7c1  solid;}
 .subtitulo {display:none;}
 .main {font-size: small;}
 }
 
 
-footer { background-color:#f7a398;
+footer { background-color:#f0d4d0;
     text-align: center;
-    border: solid 5px #fcd487;
-    background-image: linear-gradient(to top,#fcd487 ,#EEA1A1);
+    border: solid 5px #ebc7c1;
+    background-image: linear-gradient(to top, #EEA1A1,#f0d4d0);
     margin:5% 1% 5% 1%;
     text-align: center;
     padding: 5%;
     
 }
 .copy { font-size: small;
-color:#fcd487;
-background-color: #EEA1A1;}
+color:#EEA1A1;
+}
