@@ -159,9 +159,16 @@ footer { background-color:#f0d4d0;
 }
 
  @media only screen and (min-width:0px) and (max-width:767px) {
+.contenedor{ margin-top:15%;margin-bottom: 10%;}
 h2 {display:none}
 .h1{margin-top: 0%;border-top: 0%;text-align: center;}
-.carrito {text-align: right;}
+.row .carrito {text-align: right;
+width: 60% ;
+height: 60%;}
+.row .logo{
+  width:68% ;
+  height: 60%;
+}
 .titulo {width: 80%;
 height: 60%;
 display: flex;
@@ -169,13 +176,9 @@ flex-direction: row;
 justify-content: center;
 text-align: center;}
 
-.nav {margin-top:0%;display: flex;justify-content: center;}
-li {font-size: xx-small;display: flex;height: 100%;}
-ul{justify-content:center ;text-align:center;width: 95%;height: 35%}
 
-
-.main {display:none}
-
+#menu_navbar {display:none;}
+.main {display:none;}
 .footer{margin-top: 10%;height: fit-content;}
 
 #grilla {
@@ -188,6 +191,11 @@ ul{justify-content:center ;text-align:center;width: 95%;height: 35%}
   gap: 5%;
 
  }}
+
+ @media only screen and (min-width:768px) {
+  #menu_hamburguesa {display:none;
+  }
+ }
 
 
  
