@@ -137,14 +137,14 @@ p {color:#EEA1A1; font-size: small ; }
 }
 
 #pLeg {
-  text-align: center; color:#EEA1A1; background-color: #ebc7c1;
+  text-align: center; color:#EEA1A1; background-color: #ebc7c1;font-size: medium;
   margin: 3%;
 
 }
 #pPes {
-  text-align: center;color:#EEA1A1; background-color: #ebc7c1;  margin: 3%;
+  text-align: center;color:#EEA1A1; background-color: #ebc7c1;  margin: 3%; font-size: medium;
 }
-#bra_abajo {text-align: center;color:#EEA1A1; background-color: #ebc7c1;  margin: 3%;}
+#bra_abajo {text-align: center;color:#EEA1A1; background-color: #ebc7c1;  margin: 3%;font-size: medium;}
 
 
 
